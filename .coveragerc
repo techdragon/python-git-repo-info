@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/local_git_repo_config
+   */site-packages/local_git_repo_config
+
+[run]
+branch = true
+source =
+    local_git_repo_config
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
