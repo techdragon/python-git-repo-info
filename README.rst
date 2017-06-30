@@ -53,9 +53,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/local-git-repo-config
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/techdragon/python-local-git-repo-config/v0.1.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/techdragon/python-local-git-repo-config/v0.2.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/techdragon/python-local-git-repo-config/compare/v0.1.0...master
+    :target: https://github.com/techdragon/python-local-git-repo-config/compare/v0.2.0...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/local-git-repo-config.svg
     :alt: PyPI Wheel
