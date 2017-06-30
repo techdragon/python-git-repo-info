@@ -1,6 +1,7 @@
-from local_git_repo_config.local_git_repo_config import GitRepo
-from pytest_git import GitRepo as FixtureGitRepo
 import pytest
+from pytest_git import GitRepo as FixtureGitRepo
+
+from local_git_repo_config.local_git_repo_config import GitRepo
 
 
 @pytest.fixture

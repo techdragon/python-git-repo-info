@@ -1,9 +1,8 @@
+import sys
 from subprocess import STDOUT
 from subprocess import CalledProcessError
-from subprocess import check_output
 from subprocess import call
-import sys
-
+from subprocess import check_output
 
 if sys.version_info[0] > 2:
     NOT_A_GIT_REPO_STDERR = b'Not a git repository'
