@@ -68,6 +68,10 @@ setup(
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
     ],
+    tests_require=[
+        'pytest>=3.1.0',
+        'pytest-git>=1.2.2',
+    ],
     extras_require={
         # eg:
         #   'rst': ['docutils>=0.11'],
