@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='git-repo-info',
-    version='0.3.0',
+    version='0.4.0',
     license='BSD',
     description="Provides access to a local git repository's configuration.",
     long_description='%s\n%s' % (
