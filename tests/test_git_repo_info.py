@@ -1,6 +1,7 @@
 import pytest
-from git_repo_info.git_repo_info import GitRepo
 from pytest_git import GitRepo as FixtureGitRepo
+
+from git_repo_info.git_repo_info import GitRepo
 
 
 @pytest.fixture

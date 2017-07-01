@@ -1,9 +1,9 @@
-local_git_repo_config
+git_repo_info
 =====================
 
 .. testsetup::
 
-    from local_git_repo_config import *
+    from git_repo_info import *
 
-.. automodule:: local_git_repo_config
+.. automodule:: git_repo_info
     :members:

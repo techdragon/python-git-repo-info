@@ -4,4 +4,4 @@ Reference
 .. toctree::
     :glob:
 
-    local_git_repo_config*
+    git_repo_info*

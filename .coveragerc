@@ -1,12 +1,12 @@
 [paths]
 source =
-   src/local_git_repo_config
-   */site-packages/local_git_repo_config
+   src/git_repo_info
+   */site-packages/git_repo_info
 
 [run]
 branch = true
 source =
-    local_git_repo_config
+    git_repo_info
     tests
 parallel = true
 
