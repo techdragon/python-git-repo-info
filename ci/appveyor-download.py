@@ -95,7 +95,7 @@ def unpack_zipfile(filename):
 parser = argparse.ArgumentParser(description='Download artifacts from AppVeyor.')
 parser.add_argument('--id',
                     metavar='PROJECT_ID',
-                    default='techdragon/python-local-git-repo-config',
+                    default='techdragon/python-git-repo-info',
                     help='Project ID in AppVeyor.')
 parser.add_argument('build',
                     nargs='?',

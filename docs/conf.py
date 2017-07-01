@@ -31,8 +31,8 @@ version = release = u'0.2.0'
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://github.com/techdragon/python-local-git-repo-config/issues/%s', '#'),
-    'pr': ('https://github.com/techdragon/python-local-git-repo-config/pull/%s', 'PR #'),
+    'issue': ('https://github.com/techdragon/python-git-repo-info/issues/%s', '#'),
+    'pr': ('https://github.com/techdragon/python-git-repo-info/pull/%s', 'PR #'),
 }
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'

@@ -1,7 +1,6 @@
 import pytest
+from git_repo_info.git_repo_info import GitRepo
 from pytest_git import GitRepo as FixtureGitRepo
-
-from local_git_repo_config.local_git_repo_config import GitRepo
 
 
 @pytest.fixture
@@ -13,14 +12,14 @@ def empty_repo(request):
 @pytest.fixture
 def empty_repo_with_http_remote(request):
     with FixtureGitRepo() as fixture_repo:
-        fixture_repo.api.create_remote('origin', 'https://github.com/techdragon/python-local-git-repo-config.git')
+        fixture_repo.api.create_remote('origin', 'https://github.com/techdragon/python-git-repo-info.git')
         yield fixture_repo
 
 
 @pytest.fixture
 def empty_repo_with_ssh_remote(request):
     with FixtureGitRepo() as fixture_repo:
-        fixture_repo.api.create_remote('origin', 'git@github.com:techdragon/python-local-git-repo-config.git')
+        fixture_repo.api.create_remote('origin', 'git@github.com:techdragon/python-git-repo-info.git')
         yield fixture_repo
 
 

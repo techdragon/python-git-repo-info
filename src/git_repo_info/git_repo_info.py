@@ -20,6 +20,10 @@ class GitCommandException(CalledProcessError):
     pass
 
 
+# def is_git_url(url=None):
+#     return bool(re.match(r'((git|ssh|http(s)?)|(git@[\w\.]+))(:(//)?)([\w\.@\:/\-~]+)(\.git)(/)?'), url)
+
+
 class GitRepo(object):
     def __init__(self, path=None):
         self._path = path
